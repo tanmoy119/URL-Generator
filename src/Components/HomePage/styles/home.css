@@ -1,0 +1,106 @@
+:root{
+    --body-bg:#f5f8ff;
+    --box-bg:#fff;
+    --input-bg:#f5f8ff;
+    --text-color:#2f2d2f;
+    --text-second-color:#ccc;
+    --border-color:#4267b2;
+    --box-shadow:rgba(149,157,165,0.2) 0px 8px 24px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family:calibri;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    background-color:rgb(128,215,222);
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+
+    height: 100vh;
+   }
+
+   .dropBox{
+    position: relative;
+    width: 1300px;
+    height: 400px;
+     padding-top: 30px; 
+    padding-bottom: 23px;
+    border: 2px dashed var(--border-color);
+    /* border-radius: 20px; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:var(--input-bg);
+}
+
+div.dropBox{
+  opacity: 0.8;
+}
+
+.dropBox img{
+  width: 120px;
+}
+
+button{
+  margin-top:60px;
+  background-color:whitesmoke;
+  border:2px solid orange;
+  border-radius: 4px;
+  font-size:large;
+  font-weight: 700;
+  color: orange;
+ padding: 20px 35px; 
+ cursor: pointer;
+}
+
+button:hover{
+  color:white;
+  font-size:large;
+  font-weight: 700;
+  background-color: orange;
+}
+
+
+.bg h2,h1{
+
+   color: white;
+   text-align: center;
+   font-weight: 300;
+   font-size: 40px;
+   /* margin-top: -15px; */
+   margin-bottom: 10px;
+   display: inline-block;
+   width: 100%;
+   line-height: 50px;
+}
+
+span{
+  font-family: "Open Sans", sans-serif;
+    letter-spacing: inherit;
+    color: #7f898e;
+    text-align: center;
+    line-height: 1.42;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  .bg1{
+    background-image: url(../assets/background.gif);
+    width:70%;
+    height:40%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position:absolute;
+     margin-top: 330px;
+     margin-left: 200px;
+ 
+     }
