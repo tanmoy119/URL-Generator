@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import "../../styles/home.css";
-import uploadImage from "../../assets/upload.png";
+import "./styles/home.css";
+import uploadImage from "./assets/upload.png";
 
 const Home = () => {
   //===All React Hooks are here===================
