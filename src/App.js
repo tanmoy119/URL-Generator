@@ -1,11 +1,10 @@
 import './App.css';
-
-// Swagat
+import Photo from './components/Product_Page/Photo';
 
 function App() {
   return (
     <div className="App">
-     app
+    <Photo/>
     </div>
   );
 }
